@@ -11,7 +11,7 @@ export default function AppNavigator() {
   const theme = useTheme();
   return (
     <NavigationContainer theme={theme.mode === 'dark' ? darkTheme : lightTheme}>
-      <HomeStack/>
+      <Stacks/>
     </NavigationContainer>
   );
 }
